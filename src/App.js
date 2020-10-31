@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import './App.css';
 
 function App() {
-  const [myGuess,setMyGuess] = useState(0);
-  const [rndNumber, setRndNumber] = useState(0);
-  const [attempts,setAttempts] = useState(1);
-  const [newHistory, setNewHistory] = useState([])
-  const resetHandeler = () => {
+  const  [myGuess,setMyGuess] = useState(0);
+  const  [rndNumber, setRndNumber] = useState(0);
+  const  [attempts,setAttempts] = useState(1);
+  const  [newHistory, setNewHistory] = useState([])
+  const  resetHandeler = () => {
     setNewHistory([]);
     setAttempts(0);      
   }
